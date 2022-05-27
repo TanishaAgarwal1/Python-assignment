@@ -1,4 +1,4 @@
-WAP to read first n lines
+#WAP to read first n lines
 
 f=open('demo.txt','r')
 n=int(input('enter no of lines'))
