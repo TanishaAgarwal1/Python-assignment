@@ -1,4 +1,4 @@
-WAP to find a+b sqaure
+#WAP to find a+b sqaure
 
 import math as mp
 n=int(input("enter no"))
