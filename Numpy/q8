@@ -1,4 +1,4 @@
-WAP to create a series with 2,5,8,11...till n , n will given by user
+#WAP to create a series with 2,5,8,11...till n , n will given by user
 
 import numpy as np
 n=int(input("enter"))
