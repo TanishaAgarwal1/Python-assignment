@@ -1,4 +1,4 @@
- WAP to create an array which is linearly spaced with given distribution scheme
+ #WAP to create an array which is linearly spaced with given distribution scheme
  
  import numpy as np
  n=int(input("enter lower limit"))
