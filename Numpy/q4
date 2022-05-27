@@ -1,4 +1,4 @@
-WAP to find sum at each place of 2 matrix of order m*n input by the user
+#WAP to find sum at each place of 2 matrix of order m*n input by the user
 
 import numpy as np
 n=int(input('enter the size'))
