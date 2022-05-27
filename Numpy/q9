@@ -1,4 +1,4 @@
-WAP to create an M*n matrix with all elements as 1 and then delete the matrix
+#WAP to create an M*n matrix with all elements as 1 and then delete the matrix
 
 import numpy as np
 n=int(input())
