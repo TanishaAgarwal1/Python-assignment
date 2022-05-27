@@ -1,4 +1,4 @@
-WAP to count no of words
+# WAP to count no of words
 
 f=open('demo.txt','r')
 d=f.read()
