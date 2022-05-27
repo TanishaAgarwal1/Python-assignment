@@ -1,4 +1,4 @@
-WAP to find determinant of an array of order m*n and then flatten that array
+#WAP to find determinant of an array of order m*n and then flatten that array
 
 import numpy as np
 n=int(input('enter the size'))
