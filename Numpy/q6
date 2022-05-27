@@ -1,4 +1,4 @@
-WAP to calculate the sum of all rows in a m*n matrix
+#WAP to calculate the sum of all rows in a m*n matrix
 
 import numpy as np
 n=int(input('enter the size'))
