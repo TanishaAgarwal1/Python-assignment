@@ -1,4 +1,4 @@
-WAP to find median of a matrix
+#WAP to find median of a matrix
 
 import numpy as np
 n=int(input('enter the size'))
