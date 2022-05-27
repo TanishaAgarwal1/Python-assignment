@@ -1,4 +1,4 @@
-WAP to find the the transpose of a matrix(3D)
+#WAP to find the the transpose of a matrix(3D)
 
 import numpy as np
 a=[1,2,3]
