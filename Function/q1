@@ -1,0 +1,16 @@
+'''Q1.
+Write a Program that defines a function called frequency() which computes the frequency 
+of words present in a sentence passed to it. The freqencies should be returned in
+ sorted order of words in the santence.
+''' 
+
+def frequency(s):
+    freq={}
+    for word in s.split():
+        freq[word]=freq.get(word,0)+1
+    return freq
+s=input("Enter the Sentence")
+d=frequency(s)
+words=sorted(d)
+for w in words:
+    print('%s : %d'%(w,d[w]))
