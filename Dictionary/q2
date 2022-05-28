@@ -1,0 +1,10 @@
+'''  Q 2.
+Write a program to find the maximum and Minimum Values from the Dictionary.
+'''
+my_dict = {'x':500, 'y':5874, 'z': 560,'a':11,'b':124,'c':5656}
+
+key_max = max(my_dict.keys(), key=(lambda k: my_dict[k]))
+key_min = min(my_dict.keys(), key=(lambda k: my_dict[k]))
+
+print('Maximum Value: ',my_dict[key_max])
+print('Minimum Value: ',my_dict[key_min])
