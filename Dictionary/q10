@@ -1,0 +1,12 @@
+''' Q 10.
+Write a program to fetch all Values of a Dictionary in a given Format key=value using items().
+'''
+a={}
+n=int(input("Enter Size of Dictionary"))
+for i in range(0,n):
+    x=int(input("Enter Key"))
+    y=int(input("Enter Value"))
+    a[x]=y
+b=a.items()
+for i,j in b:
+    print(i,"=",j)
