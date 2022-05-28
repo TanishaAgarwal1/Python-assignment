@@ -1,0 +1,13 @@
+'''  Q 3.
+Write a Program to input the name and Phone no. of a Student in a Single Line and Search the Name in
+Dictionary if found print name=phone no. else print 'Not Found'.
+'''
+n=int(input("enter Size"))
+dic={}
+for i in range(n):
+    a,b=input().split()
+    dic[a]=b
+for i in range(n):
+    q=input("enter name to search")
+    v=dic.get(q)
+    print(f'{q}={v}' if v else 'Not Found')
