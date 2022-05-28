@@ -1,0 +1,8 @@
+''' Q 4.
+ Program to Print Dictionary of Name and Age that are Elligible to Vote.
+ '''
+def vote(a):
+    return a>=18
+info={'Alia':34,'samit':12,'Rohit':67,'seema':78,'raghav':11}
+out= {k:v for k,v in info.items() if vote(v)}
+print(out)
