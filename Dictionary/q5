@@ -1,0 +1,16 @@
+''' Q 5.
+Write a program to replace a given key Value pair in a Given Dictionary .
+'''
+a={}
+n=int(input("Enter Size"))
+for i in range(0,n):
+    x=input("Enter Key")
+    y=input("Enter Value")
+    a[x]=y
+d=input("Enter Key to be Replace")
+b=input("Enter New Key")
+c=input("Enter New Value")
+if d in a:
+    a.pop(d)
+    a[b]=c
+print("New Dictionary :-\n",a)
