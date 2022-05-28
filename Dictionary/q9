@@ -1,0 +1,19 @@
+''' Q 9.
+Write a program to multiply all the items of the Dictionary.
+'''
+a={}
+k=1
+n=int(input("Enter Size of Dictionary"))
+for i in range(0,n):
+    x=int(input("Enter Key"))
+    y=int(input("Enter Value"))
+    a[x]=y
+b=a.keys()
+c=a.values()
+for i in b:
+    k=k*i
+print(f"Multiplication of All Keys={k}")
+k=1
+for i in c:
+    k=k*i
+print(f"Multiplication of All Values={k}")
