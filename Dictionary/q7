@@ -1,0 +1,13 @@
+''' Q 7.
+Write a program to Sort a Dictinary in Ascending and Descending order by Key  .
+'''
+a={}
+n=int(input("Enter Size of Dictionary"))
+for i in range(0,n):
+    x=int(input("Enter Key"))
+    y=input("Enter Value")
+    a[x]=y
+b=sorted(a.items())
+print('Ascending Order by Key:',b)
+d2=sorted(a.items(),reverse=True)
+print("Descending order by key:",d2)
