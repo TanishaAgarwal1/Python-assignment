@@ -9,7 +9,7 @@ def fac(a):
     return p
 d={}
 size=int(input("enter Size"))
-for i in range(0,size):
-    x=int(input("enter key"))
-    d[x]=fac(x)
-print(d)
+for i in range(1,size+1):
+   
+    d[i]=fac(i)
+ print(d)
