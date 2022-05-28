@@ -6,7 +6,7 @@ def fac(a):
     while a>0:
         p=p*a
         a=a-1
-    return 
+    return p
 d={}
 size=int(input("enter Size"))
 for i in range(0,size):
