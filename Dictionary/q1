@@ -1,0 +1,15 @@
+''' Q 1.
+Write a Program to Print a Dictionary in which the values of keys will the Factorial of it.
+'''
+def fac(a):
+    p=1
+    while a>0:
+        p=p*a
+        a=a-1
+    return 
+d={}
+size=int(input("enter Size"))
+for i in range(0,size):
+    x=int(input("enter key"))
+    d[x]=fac(x)
+print(d)
