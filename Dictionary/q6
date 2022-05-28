@@ -1,0 +1,17 @@
+''' Q 6.
+Write a program to Merge two Dictinary together and Store it in First Dictionary .
+'''
+a={}
+b={}
+n=int(input("Enter Size of First Dictionary"))
+for i in range(0,n):
+    x=input("Enter Key")
+    y=input("Enter Value")
+    a[x]=y
+m=int(input("Enter Size of Second Dictionary"))
+for i in range(m):
+    x=input("Enter Key")
+    y=input("Enter Value")
+    a[x]=y
+a.update(b)
+print("New Dictionary :-\n",a)
